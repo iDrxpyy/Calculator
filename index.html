@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jack's Calculator</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="container">
+		<div id="digitPlate" class="digitPlate shadow">0</div>
+		<div class="btn-container">
+			<button type="button" onclick="SetNumberOne()">1</button>
+		</div>
+	</div>
+</body>
+<script>
+	function SetNumberOne() {
+		let digitPlate = document.getElementById('digitPlate');
+		digitPlate.innerHTML = '1';
+	}
+</script>
+</html>
