@@ -41,9 +41,9 @@ body {
     height: calc(100% - 94px);
     margin: 14px;
     margin-top: 48px;
-    width: 55px;
-    height: 39px;
+}
+
+.btn-style {
     width: 64px;
     height: 36px;
-
-.
+}
